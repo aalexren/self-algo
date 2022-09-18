@@ -4,6 +4,8 @@
 Мы проходим по всем числам от 3 до $i^2 <= n$ и проверяем все последующие $j = i^2$ до $n$ с шагом $i$.
 Время работы алгоритма $O(n \cdot log(log \cdot n))$
 
+***Где решить задачу?*** [Задачи](https://informatics.msk.ru/mod/statements/view.php?id=35975#1)
+
 ```python
 def isprime(a: int) -> bool:
     '''
